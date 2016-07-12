@@ -10,7 +10,7 @@ body {
   line-height: 1.3;
 }
 
-.container {
+.center {
   width: 960px;
   margin: 0 auto;
 }
@@ -34,6 +34,17 @@ h2 {
 h4 {
   color: #ccc;
   font-family: 'Permanent Marker', cursive;
+  padding: 10px;
+}
+
+#nav {
+  height: 30px;
+  padding: 20px;
+  width: 960px;
+}
+
+.span {
+  padding: 20px;
 }
 
 img.social {
@@ -47,6 +58,7 @@ img.article,blockquote {
 }
 
 a {
+  color: #eeeeee;
   text-decoration: none;
 }
 
@@ -54,10 +66,6 @@ a.hover {
   background-color: #1FA2E1;
 }
 
-a.nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 a.widget {
   border-bottom: <-->;
 }
@@ -73,6 +81,7 @@ a.article {
 
 p.footer {
   color:#aaa;
+  padding-top: 2px 5px;
 }
 
 header {
@@ -123,26 +132,24 @@ img {
 
 footer {
   background-color: #222;
+  height: 600px;
 }
 
-.widget1 {
-  width: 210px;
-}
-
-.widget2 {
-  width: 400px;
-}
 
 #column1 {
   float: left;
+  width: 25%;
 }
 
 #column2 {
   float: left;
+   width: 50%;
 }
 
 #column3 {
   float: left;
+  width: 25%;
+  box-sizing: border-box;
 }
 
 /* Utility clearing classes you may use. */
